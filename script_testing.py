@@ -1,5 +1,7 @@
+import os
 import pandas as pd
 import re
+import requests
 import json
 import time
 from string import capwords
@@ -24,6 +26,32 @@ common_words = {
     'drug', 'drugs', 'you', 'use', 'should', 'same', 'can', 'blood', 'levels', 'cause', 'serotonin syndrome', 'serotonin'
 }
 
+def file_exists(file_path):
+    return os.path.isfile(file_path)
+
+def download_files(url, destination):
+    if not file_exists(destination):
+        response = requests.get(url)
+        response.raise_for_status()  # Corrected this line
+        with open(destination, 'wb') as file:
+            file.write(response.content)
+        print(f"Downloaded {destination}")
+    else:
+        print(f"{destination} already exists, skipping download")
+
+def download_files(url, destination):
+    response = requests.get(url)
+    response.raise_for_status()
+    with open(destination, 'wb') as file:
+        file.write(response.content)
+
+'''URL's for S3 & Download'''
+library_url = 'https://drsyn.s3.amazonaws.com/Drug_Synonym_Library.csv'
+mapping_url = 'https://drsyn.s3.amazonaws.com/pgid_mapping.json'
+download_files(library_url, 'Drug_Synonym_Library.csv')
+download_files(mapping_url, 'pgid_mapping.json')
+
+
 def load_pgid_mapping(pgid_file='pgid_mapping.json') -> Dict[str, str]:
     try:
         with open(pgid_file, 'r') as file:
@@ -35,7 +63,7 @@ def load_pgid_mapping(pgid_file='pgid_mapping.json') -> Dict[str, str]:
 pgid_mapping = load_pgid_mapping()
 reverse_pgid_mapping = {v: k for k, v in pgid_mapping.items()}
 
-class Singleton(type):
+class Singleton(metaclass=type):
     _instances = {}
 
     def __call__(cls, *args, **kwargs):
@@ -236,7 +264,6 @@ class DrugRecognition:
         print(f"Processing time: {processing_time:.4f} seconds")  # Print the processing time
         return results
 
-import pandas as pd
 
 if __name__ == "__main__":
     synonym_files = [r'Drug_Synonym_Library.csv']
@@ -244,7 +271,7 @@ if __name__ == "__main__":
     drug_recognizer = DrugRecognition(synonym_files)
 
 
-    # Function to test a dataset
+    # Function to test the datasets
     def practice_dataset(file_path):
         sentences_df = pd.read_csv(file_path)
         documents = sentences_df['sentence'].tolist()
@@ -279,10 +306,22 @@ if __name__ == "__main__":
         print(f"Precision: {true_positives / total_matches if total_matches > 0 else 0}")
         print(f"Recall: {true_positives / total_expected if total_expected > 0 else 0}")
 
+    drug_recognizer = DrugRecognition(synonym_files)
+
+    # Sample text for testing drug recognition
+    sample_text = "I took some aspirin and Tylenol and Aleve and Pristiq and Ibuprofen for my headache, but later I switched to adderall. Did you ever try to take Cymbalta? I think its crazy when you could be taking zoloft."
+
+    # Test drug recognition on the sample text
+    results3 = drug_recognizer.process_text(sample_text)
+    for result3 in results3:
+        print(result3)
+
+
+################################################################################################################
 
     # Test both datasets
     # practice_dataset('Expanded_Drug_Sentence_Test.csv')
-    practice_dataset('2_Drug_Sentence_Test.csv')
+    # practice_dataset('2_Drug_Sentence_Test.csv')
 
     # user_drug_ids = ['enbrel']
     # # user_pg_ids = ['PGDID85008', 'PGDID363095', 'PGDID216745']
