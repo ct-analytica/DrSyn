@@ -308,6 +308,10 @@ if __name__ == "__main__":
 
     drug_recognizer = DrugRecognition(synonym_files)
 
+    # Test both datasets
+    # practice_dataset('Single_Drug_Sentence_Test.csv')
+    # practice_dataset('Multi_Drug_Sentence_Test.csv')
+
     # Sample text for testing drug recognition
     sample_text = "I took some aspirin and Tylenol and Aleve and Pristiq and Ibuprofen for my headache, but later I switched to adderall. Did you ever try to take Cymbalta? I think its crazy when you could be taking zoloft."
 
@@ -319,9 +323,6 @@ if __name__ == "__main__":
 
 ################################################################################################################
 
-    # Test both datasets
-    # practice_dataset('Expanded_Drug_Sentence_Test.csv')
-    # practice_dataset('2_Drug_Sentence_Test.csv')
 
     # user_drug_ids = ['enbrel']
     # # user_pg_ids = ['PGDID85008', 'PGDID363095', 'PGDID216745']

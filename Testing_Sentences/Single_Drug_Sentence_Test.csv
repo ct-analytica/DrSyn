@@ -1,0 +1,501 @@
+sentence,expected_drug
+The patient was prescribed ibuprofen for their pain.,ibuprofen
+She takes Tylenol when she has a headache.,Acetaminophen
+He uses Advil to reduce his fever.,Ibuprofen
+The doctor recommended aspirin for the inflammation.,aspirin
+Paracetamol is often used for mild to moderate pain.,Acetaminophen
+For severe pain she was given morphine.,morphine
+Amoxicillin is a common antibiotic for infections.,Amoxicillin
+He was prescribed Prozac for his depression.,Fluoxetine
+Lisinopril is used to treat high blood pressure.,Lisinopril
+Simvastatin is effective in lowering cholesterol levels.,Simvastatin
+The doctor prescribed metformin for diabetes management.,metformin
+He takes prednisone for his asthma.,prednisone
+Warfarin is used as a blood thinner.,Warfarin
+Gabapentin is often prescribed for nerve pain.,Gabapentin
+She takes Zoloft to manage her anxiety.,Zoloft
+Lipitor is a well-known medication for lowering cholesterol.,Atorvastatin
+He uses Claritin to relieve his allergy symptoms.,Loratadine
+The doctor suggested Zantac for her acid reflux.,Ranitidine
+Amlodipine helps in controlling high blood pressure.,Amlodipine
+Ibuprofen is also effective in reducing inflammation.,Ibuprofen
+She was given OxyContin for chronic pain management.,Oxycodone
+Celebrex is prescribed for arthritis pain.,Celecoxib
+He takes Nexium to manage his GERD symptoms.,Esomeprazole
+The dentist prescribed hydrocodone after the procedure.,hydrocodone
+Omeprazole is used to treat acid reflux.,Omeprazole
+Zocor is another medication for lowering cholesterol.,Simvastatin
+The doctor gave her Lexapro for her depression.,Escitalopram
+Ventolin is a common inhaler for asthma patients.,Albuterol
+She takes Cymbalta to manage her fibromyalgia.,Duloxetine
+The patient was prescribed Norvasc for high blood pressure.,Amlodipine
+Ciprofloxacin is an antibiotic used for bacterial infections.,Ciprofloxacin
+He uses Flonase for his seasonal allergies.,Fluticasone
+The doctor recommended Plavix to prevent blood clots.,Clopidogrel
+Furosemide is a diuretic used to treat fluid retention.,Furosemide
+The patient takes Valtrex for herpes outbreaks.,Valacyclovir
+He was prescribed Zyrtec for his allergies.,Cetirizine
+The doctor suggested Protonix for his GERD.,Pantoprazole
+Lamotrigine is used to control seizures.,Lamotrigine
+She takes Spiriva for her COPD.,Tiotropium
+The patient was given Bactrim for his infection.,Sulfamethoxazole/Trimethoprim
+Hydrochlorothiazide is a diuretic used for hypertension.,Hydrochlorothiazide
+The doctor prescribed Synthroid for her hypothyroidism.,Levothyroxine
+He takes Tramadol for pain relief.,Tramadol
+The patient was given Ativan for anxiety.,Lorazepam
+She takes Wellbutrin to help with her depression.,Bupropion
+The doctor recommended Fosamax for osteoporosis.,Alendronate
+The patient uses Imitrex for migraine relief.,Sumatriptan
+Tamsulosin is prescribed for enlarged prostate.,Tamsulosin
+The patient was prescribed Prednisone for inflammation.,Prednisone
+He takes Xanax for anxiety management.,Alprazolam
+The doctor gave her Depakote for bipolar disorder.,Divalproex
+She takes Aricept for Alzheimer's disease.,Donepezil
+The patient was given Ritalin for ADHD.,Methylphenidate
+The doctor recommended Tamiflu for influenza treatment.,Oseltamivir
+He uses Humira for his rheumatoid arthritis.,Adalimumab
+The patient takes Coumadin as a blood thinner.,Warfarin
+She was prescribed Lyrica for nerve pain.,Pregabalin
+The doctor gave him Seroquel for schizophrenia.,Quetiapine
+The patient uses Lantus for diabetes management.,Insulin Glargine
+He takes Chantix to help quit smoking.,Varenicline
+The patient was given Enbrel for his arthritis.,Etanercept
+She takes Topamax to prevent migraines.,Topiramate
+The doctor prescribed Glucophage for diabetes.,metformin
+The patient was given Celecoxib for pain relief.,Celecoxib
+He takes Risperdal for his bipolar disorder.,Risperidone
+She uses Trelegy for her COPD.,Fluticasone/Umeclidinium/Vilanterol
+The doctor recommended Singulair for asthma.,Montelukast
+The patient was prescribed Januvia for diabetes.,Sitagliptin
+He takes Albuterol for his asthma.,Albuterol
+She was given Methotrexate for her rheumatoid arthritis.,Methotrexate
+The doctor recommended Eliquis to prevent strokes.,Apixaban
+The patient takes Zocor for cholesterol management.,Simvastatin
+He uses Naproxen for pain relief.,Naproxen
+The doctor gave her Valsartan for high blood pressure.,Valsartan
+She takes Symbicort for her asthma.,Symbicort
+The patient was prescribed Effexor for depression.,Venlafaxine
+He takes Abilify for his schizophrenia.,Aripiprazole
+The doctor recommended Crestor for high cholesterol.,Rosuvastatin
+She uses Diltiazem for her heart condition.,Diltiazem
+The patient takes Zovirax for herpes treatment.,Acyclovir
+He was given Norco for pain relief.,Hydrocodone/Acetaminophen
+The doctor prescribed Atorvastatin for his high cholesterol.,Atorvastatin
+She takes Lamictal for her epilepsy.,Lamotrigine
+The patient uses Levothyroxine for hypothyroidism.,Levothyroxine
+He takes Buspar for his anxiety.,Buspirone
+The doctor gave her Clozapine for schizophrenia.,Clozaril
+She was prescribed Remicade for her Crohn's disease.,Infliximab
+The patient takes Vicodin for pain management.,Hydrocodone/Acetaminophen
+He uses Restasis for his dry eyes.,Cyclosporine
+The doctor recommended Zetia for cholesterol management.,Ezetimibe
+She takes Arimidex for breast cancer treatment.,Anastrozole
+The patient was prescribed Trazodone for sleep aid.,Trazodone
+He takes Valium for his anxiety.,Diazepam
+The doctor gave her Proventil for asthma.,Albuterol
+She was given Spironolactone for her acne.,Spironolactone
+The patient takes Clonazepam for panic disorder.,Klonopin
+He uses Celexa for his depression.,Citalopram
+The doctor recommended Minocycline for acne treatment.,Minocin
+She takes Doxycycline for bacterial infections.,Vibramycin
+The patient was prescribed Namenda for Alzheimer's disease.,Memantine
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
+I took Tylenol for my headache.,acetaminophen
+He was prescribed Lipitor to manage his cholesterol.,atorvastatin
+She uses Zoloft to help with her anxiety.,sertraline
+The doctor recommended Lyrica for nerve pain.,pregabalin
+She takes Prilosec for her acid reflux.,omeprazole
+He was given Plavix after his heart attack.,clopidogrel
+The patient was prescribed Zocor for high cholesterol.,simvastatin
+She uses Nexium to treat her GERD.,esomeprazole
+He takes Prozac for his depression.,fluoxetine
+The doctor advised taking Glucophage for diabetes.,metformin
