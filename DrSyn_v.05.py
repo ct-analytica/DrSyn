@@ -26,18 +26,26 @@ common_words = {
     'drug', 'drugs', 'you', 'use', 'should', 'same', 'can', 'blood', 'levels', 'cause', 'serotonin syndrome', 'serotonin'
 }
 
-def file_exists(file_path):
+def file_exists(file_path: str) -> bool:
+
     return os.path.isfile(file_path)
 
-def download_files(url, destination):
+
+def download_files(url: str, destination: str) -> None:
+
+    """
+    Download the Drug_Synonym_Library.csv and pgid_mapping.json files from the AWS S3 Bucket
+    :param destination: To user repository
+    """
     if not file_exists(destination):
         response = requests.get(url)
         response.raise_for_status()  # Corrected this line
         with open(destination, 'wb') as file:
             file.write(response.content)
-        print(f"Downloaded {destination}")
+        print(f"Downloading {destination}")
     else:
         print(f"{destination} already exists, skipping download")
+
 
 '''URL's for S3 & Download'''
 library_url = 'https://drsyn.s3.amazonaws.com/Drug_Synonym_Library.csv'
@@ -59,11 +67,13 @@ def load_pgid_mapping(pgid_file='pgid_mapping.json') -> Dict[str, str]:
         print("PGID mapping file not found. Please ensure the mapping file exists.")
         return {}
 
+
 # Load PGIDs at the start
 pgid_mapping = load_pgid_mapping()
 reverse_pgid_mapping = {v: k for k, v in pgid_mapping.items()}  # Reverse mapping
 
-class Singleton(metaclass=type):
+
+class Singleton(type):
     _instances = {}
 
     def __call__(cls, *args, **kwargs):
@@ -99,7 +109,9 @@ class DrugSynonymConverter:
             cls._instance = None
 
     def create_synonym_and_id_dicts(self) -> Tuple[Dict[str, Tuple[str, str]], Dict[str, str], Dict[str, str]]:
-        """Create & return dictionary for the drug synonyms/PGDIDs/Canonical names"""
+        """Create & return dictionary for the drug synonyms/PGDIDs/Canonical names
+        :return: Tuple containing synonym dictionary, PGDID dictionary, and canonical dictionary
+        """
         synonym_dict = {}
         pgid_dict = {}
         canonical_dict = {}
@@ -170,7 +182,7 @@ class DrugSynonymConverter:
     def get_synonyms_for_drug_name(self, drug_name: str, max_synonyms: int) -> List[str]:
         """
         Return the list of synonyms for a given drug name
-        :param drug_name: drug name
+        :param drug_name: drug name being looked up
         :param max_synonyms: max number of synonyms to return
         :return: the list of synonyms
         """
@@ -180,11 +192,13 @@ class DrugSynonymConverter:
             return list(islice(synonyms, max_synonyms))
         return []
 
+
 def tokenize(text: str) -> List[str]:
     """
     Tokenize the input text into words.
     """
     return re.findall(r'\b\w+\b', text.lower())
+
 
 def find_drugs_in_text(text: str, converter: DrugSynonymConverter) -> List[Tuple[str, str]]:
     """
@@ -202,7 +216,11 @@ def find_drugs_in_text(text: str, converter: DrugSynonymConverter) -> List[Tuple
                 drugs.append((common_name, pgid))
     return drugs
 
+
 def validate_input(drug_ids: Union[str, int, List[Union[str, int]]]) -> Tuple[List[Union[str, int]], str]:
+    """Validate the input drug PGDID's
+        :param drug_ids: PGDID's to validate
+        "return: tuple containing the list of PGDIDs and an error message if needed"""
     if not isinstance(drug_ids, list):
         drug_ids = [drug_ids]
 
@@ -220,7 +238,7 @@ def pg_lookup(drug_ids: Union[str, int, List[Union[str, int]]],
               fetch: List[str] = None,
               max_synonyms: int = 10) -> List[Dict[str, Any]]:
     """
-    Retrieves drug synonym information based on user-defined drug IDs or PGIDs.
+    Retrieves drug synonym information based on user-defined drug IDs or PGDIDs.
 
     Parameters:
     - drug_ids (list): List of drug names, drug IDs from other databases, or any other relevant identifiers based on the user preferences.
@@ -286,14 +304,26 @@ def pg_lookup(drug_ids: Union[str, int, List[Union[str, int]]],
 
 
 class DrugRecognition:
+    """
+    Class for recognizing drugs in bodies of text using the DrugSynonymConverter Class
+    """
+
     def __init__(self, synonym_files: List[str]):
         self.converter = DrugSynonymConverter(synonym_files)
 
-    def process_text(self, text):
+    def process_text(self, text: str) -> List[Tuple[str, str]]:
         return find_drugs_in_text(text, self.converter)
 
     @staticmethod
-    def process_documents(documents, drug_recognizer, max_workers=4):
+    def process_documents(documents: List[str], drug_recognizer, max_workers: int = 4) -> List[List[Tuple[str, str]]]:
+        """
+        Process mutiple doc's or texts to find the drugs within using multithreading
+
+        :param documents: List of input documents
+        :param drug_recognizer: instances for DrugRecognition
+        :param max_workers: Total number of worker threads
+        :return: List of lists of tuples containing common names and PGDID's of the drugs extracted
+        """
         start_time = time.time()  # Start the timer
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
