@@ -10,13 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/Testing_Sentences/Multi_Drug_Sentence_Test.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
