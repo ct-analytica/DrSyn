@@ -8,10 +8,11 @@ setup(
     website='https://precisiongenetics.com',
     author='Clark Thurston',
     author_email='Clark.thurston@precisiongenetics.com',
-    packages=find_packages(),
+    packages=find_packages(include=['DrSyn', 'DrSyn.*']),
     install_requires=[
         'pandas',
         'requests',
+        'concurrent.futures',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',

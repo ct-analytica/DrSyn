@@ -1,4 +1,5 @@
-import DrSyn
+from DrSyn import DrSyn
+
 
 def main():
     # Sample text for recognizing drugs in text
