@@ -12,7 +12,6 @@ setup(
     install_requires=[
         'pandas',
         'requests',
-        'concurrent.futures',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
