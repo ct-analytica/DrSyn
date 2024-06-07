@@ -25,6 +25,8 @@ cd DrSyn
 pip install -r requirements.txt
 
 ```
+#
+#
 ## Usages
 ```python
 recognize_drugs_in_text(text: str) -> List[Tuple[str, str]]*
@@ -46,8 +48,8 @@ pg_lookup(drug_ids: Union[str, int, List[Union[str, int]]],
 ```
    - **Purpose**: Demonstrates looking up drugs by their PGIDs or common names and fetching details such as synonyms.
    - **Output**: Prints detailed information for each drug based on the provided PGIDs or drug names.
-
-
+#
+#
 ## Data Sources
 
 ## Contributing
