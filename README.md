@@ -1,5 +1,5 @@
 <div style="position: relative; text-align: center; color: white;">
-  <img src="https://github.com/boohag/DrSyn/blob/master/DR_PGBANNER.png" alt="DrSyn Banner">
+  <img src="https://github.com/boohag/DrSyn/blob/master/Image_Assets/DR_PGBANNER.png" alt="DrSyn Banner">
 </div>
 
 # A drug entity recognition tool for medical texts
