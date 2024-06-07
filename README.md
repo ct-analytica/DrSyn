@@ -16,7 +16,6 @@ DrSyn ensures consistency and accuracy in drug name identification and standardi
 
 ---
 
-This description highlights the main features and importance of your package while maintaining a professional tone.
 ## Installation
 To install DrSyn, clone the repository and install the required packages:
 ```bash
