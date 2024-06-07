@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import re
 
+"""Once you have downloaded the pgid_mapping.json and Drug_Synonym_Library.csv files, You may use this if you decide to edit or personalize the library file"""
 
 def update_pgid_file(synonym_files, pgid_file='pgid_mapping.json'):
     # Ensure synonym_files is a list
