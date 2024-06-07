@@ -28,7 +28,7 @@ pip install -r requirements.txt
 #
 ## Usages
 ```python
-recognize_drugs_in_text(text: str) -> List[Tuple[str, str]]*
+recognize_drugs_in_text(text: str) -> List[Tuple[str, str]]
 ```
    - **Purpose**: Demonstrates recognizing drug names within a block of text.
    - **Output**: Identifies and prints each drug mentioned along with its PGID.
