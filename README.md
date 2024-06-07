@@ -1,30 +1,25 @@
-# DrSyn
-## A drug entity recognition tool for medical texs
-![alt text](https://github.com/boohag/DrSyn/blob/master/DrSyn_Logo.png)
+<div style="position: relative; text-align: center; color: white;">
+  <img src="https://github.com/boohag/DrSyn/blob/master/DR_PGBANNER.png" alt="DrSyn Banner">
+</div>
+
+# A drug entity recognition tool for medical texts
 
 ## Installation
+To install DrSyn, clone the repository and install the required packages:
+```bash
+git clone https://github.com/boohag/DrSyn.git
+cd DrSyn
+pip install -r requirements.txt
 
-You can install DrSyn using pip:
-```python
-pip install git+'https://github.com/boohag/DrSyn'
 ```
 ## Usages
 ```python
-from drsyn import DrugRecognition
+# Will Update
+```
+## Data Sources
 
-# Initialize the DrugRecognition with the synonym files
-synonym_files = ['Drug_Synonym_Library.csv']
-drug_recognizer = DrugRecognition(synonym_files)
+## Contributing
 
-# Process a sample text
-sample_text = "I took some aspirin and Tylenol for my headache."
-results = drug_recognizer.process_text(sample_text)
+## Licensing
 
-for result in results:
-    print(result)
-
-# Process multiple documents
-documents = ["I took aspirin.", "Tylenol is good for pain relief."]
-results = DrugRecognition.process_documents(documents, drug_recognizer)
-for result in results:
-    print(result)
+## Contact
