@@ -34,7 +34,7 @@ recognize_drugs_in_text(text: str) -> List[Tuple[str, str]]*
    - **Output**: Identifies and prints each drug mentioned along with its PGID.
 #
 ```python
-def recognize_drugs_in_documents(documents: List[str], max_workers: int = 4) -> List[List[Tuple[str, str]]]
+recognize_drugs_in_documents(documents: List[str], max_workers: int = 4) -> List[List[Tuple[str, str]]]
 ```
    - **Purpose**: Demonstrates recognizing drug names within multiple documents concurrently. 'max_workers' can be customized.
    - **Output**: Identifies and prints each drug mentioned in each document along with its PGID.
