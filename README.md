@@ -1,5 +1,5 @@
 <div style="position: relative; text-align: center; color: white;">
-  <img src="https://github.com/boohag/DrSyn/blob/master/Image_Assets/DR_PGBANNER.png" alt="DrSyn Banner">
+  <img src="https://github.com/ct-analytica/DrSyn/blob/master/Image_Assets/DR_PGBANNER.png" alt="DrSyn Banner">
 </div>
 
 # DrSyn: A Python Package for Drug Name Identification and Standardization
@@ -19,7 +19,7 @@ DrSyn ensures consistency and accuracy in drug name identification and standardi
 ## Installation
 To install DrSyn, clone the repository and install the required packages:
 ```bash
-git clone https://github.com/boohag/DrSyn.git
+git clone https://github.com/ct-analytica/DrSyn.git
 cd DrSyn
 pip install -r requirements.txt
 
