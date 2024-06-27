@@ -1,7 +1,13 @@
-<div style="position: relative; text-align: center; color: white;">
-  <img src="https://github.com/ct-analytica/DrSyn/blob/master/Image_Assets/DrSynBanner.png" alt="DrSyn Banner">
-</div>
+![DrSyn Logo](https://github.com/ct-analytica/DrSyn/blob/master/Image_Assets/DrSynBanner.png?raw=true)
+![GitHub Release](https://img.shields.io/github/v/release/ct-analytica/DrSyn?include_prereleases&display_name=release)
+![GitHub repo size](https://img.shields.io/github/repo-size/ct-analytica/DrSyn)
+![GitHub Repo stars](https://img.shields.io/github/stars/ct-analytica/DrSyn)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/ct-analytica/DrSyn)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ct-analytica/DrSyn/total)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/ct-analytica/DrSyn)
+![GitHub License](https://img.shields.io/github/license/ct-analytica/DrSyn)
 
+---
 # DrSyn: A Python Package for Drug Name Identification and Standardization
 DrSyn is a powerful Python package designed to identify drug names within medical texts, extract them, and convert them to their common names based on MeSH standards. This tool is essential for standardizing drug names across various textual sources, making it invaluable for both healthcare and research purposes.
 
